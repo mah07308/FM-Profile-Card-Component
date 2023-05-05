@@ -15,23 +15,38 @@
     <title>Frontend Mentor | Profile card component</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
     <div class="container">
-      <main id="card">
+      <main class="card">
         <div class="card-pattern-top"></div>
-        <img src="./images/image-victor.jpg" alt="profile-picture" />
+        <img src="./images/image-victor.jpg" alt="victors picture" />
 
-        <section class="personal-details">
+        <div class="personal-details">
           <h1 class="desaturated-blue">
             Victor Crest <span class="grayish-blue">26</span>
           </h1>
           <p>London</p>
-        </section>
+        </div>
 
         <hr />
 
-        <section class="social-stats">
-          <div class="stat">
+        <div class="social-stats">
+          <ul>
+            <li>
+              <span class="stat-value">80K</span> <br />
+              <span class="stat-name">Followers</span>
+            </li>
+            <li>
+              <span class="stat-value">803K</span> <br />
+              <span class="stat-name">Likes</span>
+            </li>
+            <li>
+              <span class="stat-value">1.4K</span> <br />
+              <span class="stat-name">Photos</span>
+            </li>
+          </ul>
+          <!-- <div class="stat">
             <h2 class="desaturated-blue">80K</h2>
             <p class="grayish-blue">Followers</p>
           </div>
@@ -42,8 +57,8 @@
           <div class="stat">
             <h2 class="desaturated-blue">1.4K</h2>
             <p class="grayish-blue">Photos</p>
-          </div>
-        </section>
+          </div> -->
+        </div>
       </main>
 
       <!-- Victor Crest 26 London 80K Followers 803K Likes 1.4K Photos -->
