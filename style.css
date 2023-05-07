@@ -8,7 +8,8 @@
 
 body {
   font-family: 'Kumbh Sans', Arial, Helvetica, sans-serif;
-  font-size: 18px;
+  font-size: 112.5%;
+  /* font-size: 18px; */
   background: hsl(185, 75%, 39%);
 }
 
@@ -34,6 +35,7 @@ body {
 .container::before,
 .container::after {
   position: absolute;
+  /* position: fixed; */
   content: '';
   width: 100vw;
   height: 100vh;
@@ -46,6 +48,7 @@ body {
   top: 0;
   left: 0;
   background: url('./images/bg-pattern-top.svg') no-repeat bottom right;
+  background-attachment: fixed;
 }
 
 .container::after {
@@ -60,12 +63,7 @@ body {
   max-width: 25rem;
   text-align: center;
   border-radius: 1rem;
-
-  /* z-index: 1; */
-  /* position: absolute; */
-  /* top: 50%; */
-  /* left: 50%; */
-  /* transform: translate(-50%, -50%); */
+  margin: 1rem;
 }
 
 .card-pattern-top {
@@ -120,11 +118,11 @@ body {
 }
 
 footer {
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
 }
 
 .attribution {
-  font-size: 11px;
+  font-size: 0.611rem;
   text-align: center;
 }
 .attribution a {
